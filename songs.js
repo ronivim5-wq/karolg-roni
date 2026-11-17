@@ -31,7 +31,7 @@ window.SONGS = [
 {n:29,t:"TUSA",a:"KAROL G, Nicki Minaj",v:"HND7qHLpyUI",lyrics:true,about:"הלהיט העולמי עם ניקי מינאז': לב שבור שלא משתחרר - ושרים את זה בקול."},
 {n:30,t:"COLECCIONANDO HERIDAS",a:"KAROL G, Marco Antonio Solís",v:"eOlL4HvFIZg",lyrics:true,about:"דואט עם אגדת הבלדות מרקו אנטוניו סוליס: רומנטיקנית ותיקה שממשיכה לאהוב למרות הפציעות."},
 {n:31,t:"SI ANTES TE HUBIERA CONOCIDO",a:"KAROL G",v:"8H7dYL4dhfs",lyrics:true,about:"מרנגת קיץ וירלית: 'אם הייתי מכירה אותך קודם - לא הייתי בוכה עליו'."},
-{n:32,t:"A ELLA",a:"KAROL G",v:"wLzzuKK-YtI",lyrics:false,about:"שיר אישי ועדין מהתקופה של Mañana Será Bonito."},
+{n:32,t:"A ELLA",a:"KAROL G",v:"wLzzuKK-YtI",lyrics:true,about:"שיר אישי ועדין מהתקופה של Mañana Será Bonito."},
 {n:33,t:"PROVENZA REMIX",a:"KAROL G, Tiësto",v:"QjNVuts8Nas",lyrics:true,note:"סרטון המילים הוא של הגרסה המקורית של PROVENZA - בהופעה שומעים את הרמיקס עם טייסטו, אבל המילים כמעט זהות.",about:"הרמיקס של טייסטו ללהיט על זכרונות אהבה במדיין - אותה נוסטלגיה, עם באס של מועדון."},
-{n:35,t:"VIAJANDO POR EL MUNDO (ENCORE)",a:"KAROL G, Manu Chao",v:"KryXCSlSIh4",lyrics:true,about:"האנקור עם מאנו צ׳או: 'הפחד שלי הוא לא למות - אלא לא לחיות'. המנון חירות שסוגר את המופע."}
+{n:34,t:"VIAJANDO POR EL MUNDO (ENCORE)",a:"KAROL G, Manu Chao",v:"KryXCSlSIh4",lyrics:true,about:"האנקור עם מאנו צ׳או: 'הפחד שלי הוא לא למות - אלא לא לחיות'. המנון חירות שסוגר את המופע."}
 ];
