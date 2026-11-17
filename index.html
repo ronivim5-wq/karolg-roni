@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>קרול ג׳י - לומדת את השירים</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>קרול ג׳י - לומדת את השירים</h1>
+  <p class="sub">כמה שירים יש? 31 שירים + 3 מקטעי הופעה. תכירי את כולם לפני היום הגדול!</p>
+  <div class="progress-wrap">
+    <div class="progress-label">יודעת <b id="learnedCount">0</b> מתוך <b id="totalCount">31</b> שירים</div>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+  <button id="resetBtn" class="reset-btn" type="button">איפוס הרשימה</button>
+</header>
+
+<main id="listView" class="list-view"></main>
+
+<section id="songView" class="song-view" hidden>
+  <div class="sticky-top">
+    <button id="backBtn" class="top-btn" type="button">→ חזרה לרשימה</button>
+    <span id="songNum" class="song-num"></span>
+    <button id="learnedToggle" class="top-btn learned-toggle" type="button"></button>
+  </div>
+  <h2 id="songTitle"></h2>
+  <p id="songArtist" class="song-artist"></p>
+  <div id="videoWrap" class="video-wrap"></div>
+  <p id="lyricsNote" class="lyrics-note"></p>
+  <div class="about-box">
+    <h3>על מה השיר?</h3>
+    <p id="songAbout"></p>
+  </div>
+  <div class="nav-row">
+    <button id="prevBtn" class="nav-btn" type="button">השיר הקודם</button>
+    <button id="nextBtn" class="nav-btn" type="button">השיר הבא</button>
+  </div>
+</section>
+
+<footer>
+  <p>סמני על כל שיר שאת כבר יודעת.</p><p class="small">חלק מסרטוני המילים הם מערוצי מעריצים ועלולים לרדת מיוטיוב. אם סרטון הפסיק לעבוד - ספרי לי ואחליף.</p>
+  <p class="small">המורה רוני</p>
+</footer>
+<script src="songs.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
