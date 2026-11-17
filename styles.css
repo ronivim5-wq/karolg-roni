@@ -1,0 +1,40 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Segoe UI",Arial,sans-serif;background:#fdf0f5;color:#333;direction:rtl;min-height:100vh}
+header{background:linear-gradient(135deg,#ff5e8a,#ff8f5e);color:#fff;text-align:center;padding:28px 16px 24px;border-radius:0 0 26px 26px;box-shadow:0 4px 14px rgba(0,0,0,.15)}
+header h1{font-size:1.7em;margin-bottom:8px}
+header .sub{font-size:1em;opacity:.95;margin-bottom:16px}
+.progress-wrap{max-width:420px;margin:0 auto}
+.progress-label{margin-bottom:6px;font-size:.95em}
+.progress-bar{background:rgba(255,255,255,.35);border-radius:12px;height:14px;overflow:hidden}
+.progress-fill{background:#fff;height:100%;width:0%;transition:width .3s}
+.reset-btn{margin-top:12px;background:rgba(255,255,255,.2);color:#fff;border:1px solid rgba(255,255,255,.6);border-radius:20px;padding:6px 18px;font-size:.85em;cursor:pointer}
+.list-view{max-width:640px;margin:20px auto;padding:0 14px}
+.song-row{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:12px 14px;margin-bottom:10px;box-shadow:0 2px 6px rgba(0,0,0,.06);cursor:pointer;border-right:5px solid #ff5e8a}
+.song-row.learned{border-right-color:#4caf50;background:#f0faf0}
+.song-row .num{font-weight:bold;color:#ff5e8a;min-width:26px;font-size:1.05em}
+.song-row.learned .num{color:#4caf50}
+.song-row .info{flex:1}
+.song-row .title{font-weight:700;font-size:1em}
+.song-row .artist{font-size:.82em;color:#888}
+.song-row .badge{font-size:.72em;background:#ffe3ee;color:#c2185b;border-radius:10px;padding:2px 8px;margin-top:3px;display:inline-block}
+.song-row .check{font-size:1.3em}
+.song-view{max-width:640px;margin:0 auto;padding:0 14px 30px}
+.sticky-top{position:sticky;top:0;background:#fdf0f5;padding:12px 0;display:flex;align-items:center;gap:10px;z-index:10}
+.top-btn{background:#ff5e8a;color:#fff;border:none;border-radius:20px;padding:8px 16px;font-size:.9em;cursor:pointer}
+.learned-toggle{margin-right:auto;background:#eee;color:#555}
+.learned-toggle.on{background:#4caf50;color:#fff}
+.song-num{color:#ff5e8a;font-weight:bold}
+.song-view h2{font-size:1.35em;margin:6px 0 2px;direction:ltr;text-align:right}
+.song-artist{color:#888;font-size:.9em;margin-bottom:12px;direction:ltr;text-align:right}
+.video-wrap{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,.2)}
+.video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-wrap .no-video{display:flex;align-items:center;justify-content:center;height:100%;color:#fff;text-align:center;padding:16px;font-size:.95em;line-height:1.6}
+.lyrics-note{font-size:.85em;color:#777;margin:10px 2px;font-style:italic}
+.about-box{background:#fff;border-radius:14px;padding:16px;margin-top:14px;box-shadow:0 2px 6px rgba(0,0,0,.06)}
+.about-box h3{color:#ff5e8a;font-size:1em;margin-bottom:8px}
+.about-box p{line-height:1.7;font-size:.98em}
+.nav-row{display:flex;justify-content:space-between;margin-top:18px;gap:10px}
+.nav-btn{flex:1;background:#fff;border:2px solid #ff5e8a;color:#ff5e8a;border-radius:20px;padding:10px;font-size:.95em;font-weight:600;cursor:pointer}
+.nav-btn:disabled{opacity:.35;cursor:default}
+footer{text-align:center;color:#aaa;font-size:.85em;padding:24px 16px 30px}
+footer .small{font-size:.78em;margin-top:6px}
