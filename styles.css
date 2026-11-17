@@ -5,8 +5,8 @@ header h1{font-size:1.7em;margin-bottom:8px}
 header .sub{font-size:1em;opacity:.95;margin-bottom:16px}
 .progress-wrap{max-width:420px;margin:0 auto}
 .progress-label{margin-bottom:6px;font-size:.95em}
-.progress-bar{background:rgba(255,255,255,.35);border-radius:12px;height:14px;overflow:hidden}
-.progress-fill{background:#fff;height:100%;width:0%;transition:width .3s}
+.progress-bar{background:rgba(90,10,40,.35);border-radius:12px;height:14px;overflow:hidden}
+.progress-fill{background:#fff;height:100%;width:0%;transition:width .3s;box-shadow:0 0 6px rgba(255,255,255,.9);border-radius:12px}
 .reset-btn{margin-top:12px;background:rgba(255,255,255,.2);color:#fff;border:1px solid rgba(255,255,255,.6);border-radius:20px;padding:6px 18px;font-size:.85em;cursor:pointer}
 .list-view{max-width:640px;margin:20px auto;padding:0 14px}
 .song-row{display:flex;align-items:center;gap:12px;background:#fff;border-radius:14px;padding:12px 14px;margin-bottom:10px;box-shadow:0 2px 6px rgba(0,0,0,.06);cursor:pointer;border-right:5px solid #ff5e8a}
